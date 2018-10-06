@@ -32,19 +32,38 @@ This is the project for Google India Scholars, Phase-2 for Front End Nanodegree 
 ![homepage](#)
 
 ## Folder Structure
-Comming Soon
+Below structure may change as the project grows:
 ```bash
 ├── README.md - This file.
-├── 
-└── 
+├── css
+  └── style.css # project stylesheet
+├── images
+├── js
+  └── app.js # project js file
+├── index.html # main file
+├── gulpflle.js # task runner
+└── package.json
 ```
 
 ## Prerequisites
 * Within the scope of FEND Nanodegree
 
 ## How to launch the app locally?
-Comming Soon
+You can directly open the index.html in your browser but if you want auto refresh whenever you change
+your html,css or js then follow the below steps.
 ### Installation
+1. Run npm install to install the task gulp runner
+```
+npm install
+```
+2. Launch the app by running gulp or npm start
+```
+>>>gulp
+OR
+>>>npm start
+The app will open in your browser at http://localhost:3000/
+```
+![gulp runner](https://user-images.githubusercontent.com/15084301/46567234-617c4900-c94d-11e8-9f54-ab3a6e43122b.png)
 
 ## Style Guide
 This style guide acts as the official guide to follow in your projects. Udacity evaluators will use this guide to grade your projects. There are many opinions on the "ideal" style in the world of Front-End Web Development. Therefore, in order to reduce the confusion on what style students should follow during the course of their projects, we urge all students to refer to this [style guide](https://udacity.github.io/frontend-nanodegree-styleguide/) for their projects.
